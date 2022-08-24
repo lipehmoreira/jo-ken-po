@@ -30,7 +30,7 @@ while condicao == 0:
                     break
                 else:
                     continue
-            if i == 1:
+            elif i == 1:
                 condicao = int(input('A Maquina jogou "Papel", você perdeu!\nDeseja jogar novamente?\n[0]Sim\n[1]Não\n'))
                 if condicao == 1:
                     condicao += 1
@@ -55,7 +55,7 @@ while condicao == 0:
                     break
                 else:
                     continue
-            if i == 1:
+            elif i == 1:
                 condicao = int(input('A Maquina jogou "Papel", foi um empate.\nDeseja jogar novamente?\n[0]Sim\n[1]Não\n'))
                 if condicao == 1:
                     condicao += 1
@@ -80,7 +80,7 @@ while condicao == 0:
                     break
                 else:
                     continue
-            if i == 1:
+            elif i == 1:
                 condicao = int(input('A Maquina jogou "Papel", você Ganhou!\nDeseja jogar novamente?\n[0]Sim\n[1]Não\n'))
                 if condicao == 1:
                     condicao += 1
